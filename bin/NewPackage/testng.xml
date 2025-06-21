@@ -2,8 +2,8 @@
 <suite name="E-Commerce Parallel Suite" parallel="classes" thread-count="2">
   <test name="E-Commerce Parallel Test">
     <classes>
-      <class name="mypackage.SearchParallel"/>
-      <class name="mypackage.AddToCartParallel"/>
+      <class name="NewPackage.SearchParallel"/>
+      <class name="NewPackage.AddToCartParallel"/>
     </classes>
   </test>
 </suite>

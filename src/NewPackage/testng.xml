@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="E-Commerce Parallel Suite" parallel="classes" thread-count="2">
+  <test name="E-Commerce Parallel Test">
+    <classes>
+      <class name="mypackage.SearchParallel"/>
+      <class name="mypackage.AddToCartParallel"/>
+    </classes>
+  </test>
+</suite>

@@ -43,8 +43,8 @@ public class HardAssertion {
 	
 	@Test
 	public void assertNotNull(){
-	Assert.assertNotNull("This assertion will pass because this " + "string don't returns a null value");
-	System.out.println("This line is executed because assertNotNull have passed");
+		Assert.assertNotNull("This assertion will pass because this " + "string don't returns a null value");
+		System.out.println("This line is executed because assertNotNull have passed");
 	}
 
 

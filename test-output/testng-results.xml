@@ -1,25 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-18T12:28:01 IST" name="Default suite" finished-at="2025-06-18T12:28:08 IST" duration-ms="6788">
+  <suite started-at="2025-06-23T11:45:17 IST" name="Default suite" finished-at="2025-06-23T11:45:17 IST" duration-ms="57">
     <groups>
     </groups>
-    <test started-at="2025-06-18T12:28:01 IST" name="Default test" finished-at="2025-06-18T12:28:08 IST" duration-ms="6788">
-      <class name="NewPackage.FirstTestNGClass">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:NewPackage.FirstTestNGClass@4f6ee6e4]" started-at="2025-06-18T12:28:01 IST" name="beforeTest" finished-at="2025-06-18T12:28:08 IST" duration-ms="6528" status="PASS">
+    <test started-at="2025-06-23T11:45:17 IST" name="Default test" finished-at="2025-06-23T11:45:17 IST" duration-ms="57">
+      <class name="NewPackage.HardAssertion">
+        <test-method signature="assertEquals()[pri:0, instance:NewPackage.HardAssertion@20deea7f]" started-at="2025-06-23T11:45:17 IST" name="assertEquals" finished-at="2025-06-23T11:45:17 IST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="verifyHomepageTitle()[pri:0, instance:NewPackage.FirstTestNGClass@4f6ee6e4]" started-at="2025-06-18T12:28:08 IST" name="verifyHomepageTitle" finished-at="2025-06-18T12:28:08 IST" duration-ms="27" status="PASS">
+        </test-method> <!-- assertEquals -->
+        <test-method signature="assertNotEquals()[pri:0, instance:NewPackage.HardAssertion@20deea7f]" started-at="2025-06-23T11:45:17 IST" name="assertNotEquals" finished-at="2025-06-23T11:45:17 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomepageTitle -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:NewPackage.FirstTestNGClass@4f6ee6e4]" started-at="2025-06-18T12:28:08 IST" name="afterTest" finished-at="2025-06-18T12:28:08 IST" duration-ms="186" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- NewPackage.FirstTestNGClass -->
+        </test-method> <!-- assertNotEquals -->
+      </class> <!-- NewPackage.HardAssertion -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

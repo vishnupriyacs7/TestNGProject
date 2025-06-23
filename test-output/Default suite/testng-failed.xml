@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="NewPackage.FirstTestNGClass">
+      <class name="NewPackage.HardAssertion">
         <methods>
-          <include name="verifyHomepageTitle"/>
+          <include name="assertEquals"/>
         </methods>
-      </class> <!-- NewPackage.FirstTestNGClass -->
+      </class> <!-- NewPackage.HardAssertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

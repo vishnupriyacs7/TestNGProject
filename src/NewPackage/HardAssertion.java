@@ -40,6 +40,13 @@ public class HardAssertion {
 		Assert.assertNull(null);
 		System.out.println("Since we we set null in the condition, the assertion " + "assertNull will pass");
 	}
+	
+	@Test
+	public void assertNotNull(){
+	Assert.assertNotNull("This assertion will pass because this " + "string don't returns a null value");
+	System.out.println("This line is executed because assertNotNull have passed");
+	}
+
 
 
 

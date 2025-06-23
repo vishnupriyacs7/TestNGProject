@@ -22,6 +22,26 @@ public class HardAssertion {
 		 
 		System.out.println("This line is executed because assertNotEquals" + " assertion pass for the given situation");
 	}
+	
+	@Test
+	public void assertFalse(){
+		Assert.assertFalse(3>5," 3 less than 5 true");
+		System.out.println("This line is executed because assertFalse" + "assertion passes as the given condition will return false");
+	}
+	
+	@Test
+	public void assertTrue(){
+		Assert.assertTrue(3<5," 3 less than 5 true");
+		System.out.println("This line is executed because assertFalse" + "assertion passes as the given condition will return false");
+	}
+	
+	@Test
+	public void assertNull(){
+		Assert.assertNull(null);
+		System.out.println("Since we we set null in the condition, the assertion " + "assertNull will pass");
+	}
+
+
 
 
 }

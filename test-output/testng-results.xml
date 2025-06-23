@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-23T11:45:17 IST" name="Default suite" finished-at="2025-06-23T11:45:17 IST" duration-ms="57">
+  <suite started-at="2025-06-23T11:48:38 IST" name="Default suite" finished-at="2025-06-23T11:48:38 IST" duration-ms="57">
     <groups>
     </groups>
-    <test started-at="2025-06-23T11:45:17 IST" name="Default test" finished-at="2025-06-23T11:45:17 IST" duration-ms="57">
+    <test started-at="2025-06-23T11:48:38 IST" name="Default test" finished-at="2025-06-23T11:48:38 IST" duration-ms="57">
       <class name="NewPackage.HardAssertion">
-        <test-method signature="assertEquals()[pri:0, instance:NewPackage.HardAssertion@20deea7f]" started-at="2025-06-23T11:45:17 IST" name="assertEquals" finished-at="2025-06-23T11:45:17 IST" duration-ms="15" status="PASS">
+        <test-method signature="assertEquals()[pri:0, instance:NewPackage.HardAssertion@1dde4cb2]" started-at="2025-06-23T11:48:38 IST" name="assertEquals" finished-at="2025-06-23T11:48:38 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertEquals -->
-        <test-method signature="assertNotEquals()[pri:0, instance:NewPackage.HardAssertion@20deea7f]" started-at="2025-06-23T11:45:17 IST" name="assertNotEquals" finished-at="2025-06-23T11:45:17 IST" duration-ms="1" status="PASS">
+        <test-method signature="assertFalse()[pri:0, instance:NewPackage.HardAssertion@1dde4cb2]" started-at="2025-06-23T11:48:38 IST" name="assertFalse" finished-at="2025-06-23T11:48:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertFalse -->
+        <test-method signature="assertNotEquals()[pri:0, instance:NewPackage.HardAssertion@1dde4cb2]" started-at="2025-06-23T11:48:38 IST" name="assertNotEquals" finished-at="2025-06-23T11:48:38 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- assertNotEquals -->
+        <test-method signature="assertTrue()[pri:0, instance:NewPackage.HardAssertion@1dde4cb2]" started-at="2025-06-23T11:48:38 IST" name="assertTrue" finished-at="2025-06-23T11:48:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertTrue -->
       </class> <!-- NewPackage.HardAssertion -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

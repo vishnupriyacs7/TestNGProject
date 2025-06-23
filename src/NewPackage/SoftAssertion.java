@@ -1,9 +1,22 @@
 package NewPackage;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 public class SoftAssertion {
-  @Test
-  public void f() {
-  }
+	SoftAssert softAssert = new SoftAssert();
+	@Test
+	public void hardAssertion(){
+		Assert.assertEquals("pass","pass");
+		System.out.println("hard assertion");
+		Assert.assertNull("assertion");
+		System.out.println("Since the object under assertion" + " is not null, the assertion will fail. " + "This line will not be executed");
+	}
+	@Test
+	public void softAssertion(){ 
+		softAssert.assertNull("assertion");
+		System.out.println("SoftAssertion");
+		softAssert.assertAll();
+	}
 }

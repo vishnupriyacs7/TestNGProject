@@ -5,7 +5,8 @@
     <classes>
       <class name="NewPackage.HardAssertion">
         <methods>
-          <include name="assertTrue"/>
+          <include name="assertEquals"/>
+          <include name="assertFalse"/>
         </methods>
       </class> <!-- NewPackage.HardAssertion -->
     </classes>

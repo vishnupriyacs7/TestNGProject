@@ -10,13 +10,14 @@ public class SoftAssertion {
 	public void hardAssertion(){
 		Assert.assertEquals("pass","pass");
 		System.out.println("hard assertion");
-		Assert.assertNull("assertion");
+		softAssert.assertNull("assertion");
 		System.out.println("Since the object under assertion" + " is not null, the assertion will fail. " + "This line will not be executed");
+		softAssert.assertAll();
 	}
 	@Test
 	public void softAssertion(){ 
 		softAssert.assertNull("assertion");
 		System.out.println("SoftAssertion");
-		softAssert.assertAll();
+//		softAssert.assertAll();
 	}
 }

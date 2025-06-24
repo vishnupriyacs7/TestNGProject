@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="NewPackage.SoftAssertion">
+      <class name="NewPackage.GmailTask">
         <methods>
-          <include name="hardAssertion"/>
+          <include name="testNGAsserts"/>
         </methods>
-      </class> <!-- NewPackage.SoftAssertion -->
+      </class> <!-- NewPackage.GmailTask -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

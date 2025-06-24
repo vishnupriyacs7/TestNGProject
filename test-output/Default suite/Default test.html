@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 23 12:17:21 IST 2025</td>
+<td>Started on:</td><td>Tue Jun 24 11:29:19 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (63 ms)</td>
+<tr><td>Total time:</td><td>19 seconds (19990 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,12 +75,14 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='NewPackage.SoftAssertion.hardAssertion()'><b>hardAssertion</b><br>Test class: NewPackage.SoftAssertion</td>
-<td><div><pre>java.lang.AssertionError: The following asserts failed:
-	expected [null] but found [assertion]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at NewPackage.SoftAssertion.hardAssertion(SoftAssertion.java:15)
+<td title='NewPackage.GmailTask.testNGAsserts()'><b>testNGAsserts</b><br>Test class: NewPackage.GmailTask</td>
+<td><div><pre>java.lang.AssertionError: Title not matched expected [GoogleMail] but found [Gmail: Private and secure email at no cost | Google Workspace]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at NewPackage.GmailTask.testNGAsserts(GmailTask.java:29)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -107,12 +109,14 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1010670443", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1010670443'><pre>java.lang.AssertionError: The following asserts failed:
-	expected [null] but found [assertion]
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-	at NewPackage.SoftAssertion.hardAssertion(SoftAssertion.java:15)
+</pre></div><a href='#' onClick='toggleBox("stack-trace251664534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace251664534'><pre>java.lang.AssertionError: Title not matched expected [GoogleMail] but found [Gmail: Private and secure email at no cost | Google Workspace]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at NewPackage.GmailTask.testNGAsserts(GmailTask.java:29)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -140,21 +144,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>0</td>
-<td>NewPackage.SoftAssertion@72057ecf</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='NewPackage.SoftAssertion.softAssertion()'><b>softAssertion</b><br>Test class: NewPackage.SoftAssertion</td>
-<td></td>
-<td>0</td>
-<td>NewPackage.SoftAssertion@72057ecf</td></tr>
+<td>19</td>
+<td>NewPackage.GmailTask@393671df</td></tr>
 </table><p>
 </body>
 </html>

@@ -10,7 +10,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import newtestngpackage.dataprovider_test;
+
 
 public class GoogleSearch_DP {
 	WebDriver driver;  
@@ -23,7 +23,7 @@ public class GoogleSearch_DP {
       	  driver.manage().window().maximize();
     }  	
 	
-	@Test(dataProvider ="search-data", dataProviderClass=dataprovider_test.class)
+	@Test(dataProvider ="search-data", dataProviderClass=DataProvider_inherit.class)
 	public void search(String keyWord){
       	WebElement searchBox = driver.findElement(By.xpath("//*[@id=\"APjFqb\"]"));
       	searchBox.sendKeys(keyWord);

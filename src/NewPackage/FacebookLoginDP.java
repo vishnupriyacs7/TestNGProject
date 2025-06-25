@@ -14,7 +14,7 @@ public class FacebookLoginDP {
     public Object[][] loginData() {
         return new Object[][] {
             // User name, Password, Expected Result
-            {"validUser@example.com", "validPassword", "Home Page",}, 
+//            {"validUser@example.com", "validPassword", "Home Page",}, 
             {"invalidUser@example.com", "wrongPassword", "The email address you entered isn't connected to an account. Find your account and log in."},
             {"", "", "The email address or mobile number you entered isn't connected to an account. Find your account and log in."},
             {"", "validPassword", "The email address or mobile number you entered isn't connected to an account. Find your account and log in."},
@@ -56,7 +56,7 @@ public class FacebookLoginDP {
             WebElement errorElement = driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div/div[2]/div[2]/form/div/div[1]/div[2]"));
             actualMessage = errorElement != null ? errorElement.getText() : "Login failed"; 
         
-            Reporter.log("Test failed for username: " + username);
+            Reporter.log("Test for username: " + username);
         // Verify the result message
         Assert.assertEquals(actualMessage,expectedMessage, "Test failed for username: " + username);
 

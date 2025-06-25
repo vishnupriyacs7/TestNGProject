@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="NewPackage.GmailTask">
+      <class name="NewPackage.FacebookLoginDP">
         <methods>
-          <include name="testNGAsserts"/>
+          <include name="testLogin" invocation-numbers="0"/>
         </methods>
-      </class> <!-- NewPackage.GmailTask -->
+      </class> <!-- NewPackage.FacebookLoginDP -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
